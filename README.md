@@ -6,6 +6,10 @@
 
 A deep learning-based computer vision project for detecting and recognizing characters inside vehicle license plates using **YOLOv8m**, supporting both **Persian** and **English** character recognition.
 
+## Dataset
+This project utilizes the **Large Dataset of Persian License Plate Characters** available on Kaggle:
+- [Kaggle Dataset Link](https://www.kaggle.com/datasets/amirebrahimi66/large-dataset-of-persian-license-plate-characters)
+
 ## Demo
 
 ![Sample Output](assets/8.jpg)
