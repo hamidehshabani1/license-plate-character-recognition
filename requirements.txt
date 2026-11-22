@@ -1,1 +1,12 @@
-
+ultralytics
+opencv-python
+imutils
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+termcolor
+pytesseract
+wandb
+tensorflow
