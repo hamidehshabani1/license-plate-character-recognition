@@ -16,7 +16,7 @@ This project utilizes the **Large Dataset of Persian License Plate Characters** 
 
 ## Features
 - Accurate license plate detection and character recognition using a pre-trained **YOLOv8m** model.
-- Dual-language support (`recognize_fa.py` for Persian, `recognize_en.py` for English).
+- Dual-language support (`recognize_fa.ipynb` for Persian, `recognize_en.py` for English).
 - Lightweight repository with pre-trained weights hosted via GitHub Releases.
 
 ## Project Structure
