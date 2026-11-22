@@ -19,6 +19,23 @@ This project utilizes the **Large Dataset of Persian License Plate Characters** 
 - Dual-language support (`recognize_fa.ipynb` for Persian, `recognize_en.py` for English).
 - Lightweight repository with pre-trained weights hosted via GitHub Releases.
 
+## Installation
+ **Install Tesseract-OCR (Required for `recognize_en.py`):**
+   `pytesseract` requires the Tesseract-OCR engine to be installed on your system:
+   - **Windows:** Download and install from [UB-Mannheim Tesseract Releases](https://github.com/UB-Mannheim/tesseract/wiki). By default, `recognize_en.py` expects it at:
+     ```text
+     C:\Program Files\Tesseract-OCR\tesseract.exe
+     ```
+     *(If installed elsewhere, update `pytesseract.pytesseract.tesseract_cmd` in `recognize_en.py`.)*
+   - **Linux (Ubuntu/Debian):**
+     ```bash
+     sudo apt update && sudo apt install tesseract-ocr
+     ```
+   - **macOS:**
+     ```bash
+     brew install tesseract
+     ```
+
 ## Project Structure
 ```text
 ├── assets/            # Demo output images
